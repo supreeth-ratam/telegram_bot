@@ -1,6 +1,6 @@
 const { Telegraf } = require("telegraf");
 const { searchMedia } = require("./tmdb");
-const { addMedia } = require("./firebase/config");
+const { addMedia } = require("../../firebase/config");
 const {
   formatText,
   createMessageText,
