@@ -1,0 +1,19 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "This is the telegram bot with the tmdb api",
+  "main": "index.js",
+  "scripts": {
+    "test": "]",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.1",
+    "firebase": "^10.8.0",
+    "nodemon": "^3.0.3",
+    "telegraf": "^4.15.3"
+  }
+}
